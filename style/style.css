@@ -1,0 +1,113 @@
+body{
+	margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6,a,p,ol,ul,li{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	list-style: none;
+}
+header.masthead:before {
+    background-image: url(../peak.jpeg) ;
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    
+}
+header.masthead h1{
+    font-size: 50px;
+    padding-top: 190px;
+}
+header.masthead p{
+    font-size: 20px;
+}
+.main{
+
+    color: white;
+    background-color:  rgb(208, 167, 0);
+    height: 70px;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 270px;
+    float: left;
+    border-radius: 11px 11px 11px 11px;
+    border: none;
+
+}
+.main a{
+    color: white;
+    
+}
+.clock{
+    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, 
+    rgba(0, 0, 0, 0.7) 75%, #000 100%), url(../worker.webp);
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    padding-top: 100px;
+    cursor: pointer;
+    color: white;
+}
+.clock h3{
+    font-size: 50px;
+}
+.clock input{
+    height: 50px;
+    width: 250px;
+    border: none;
+    border-radius:5px 5px 5px 5px ;
+    margin-bottom: 10px;
+}
+.clock button{
+    color: white;
+      height: 50px;
+    width: 250px;
+    border: none;
+    border-radius:5px 5px 5px 5px ;
+    margin-left: 5px;
+    background-color: rgb(208, 167, 0) ;
+    font-weight: 900px;
+
+}
+.Endpage{
+    background-color: #10346D;
+    height: 500px;
+    width: 100%;
+ 
+}
+.Endpage p{
+    padding-left: 100px;
+    padding-top: 200px;
+    font-size: 17px;
+    color: white;
+}
+.Endpage h4{
+    padding-left: 50px;
+    padding-top: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+
+}
+.Endpage hr{
+    height: 2px;
+    background-color: green;
+    width: 50px;
+    margin-top: auto;
+    margin-left: 50px;
+}
+.Endpage ul  li {
+    margin-left: 35px;
+    color: white;
+    margin-top: 0px;
+    text-decoration: none;
+
+}
+.Endpage a{
+    color: white;
+}
